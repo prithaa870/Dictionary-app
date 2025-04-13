@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>English Dictionary App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>📘 English Dictionary</h1>
+
+    <div id="tabs">
+      <button onclick="switchTab('search')">🔍 Search</button>
+      <button onclick="switchTab('flashcards')">🧠 Flashcards</button>
+    </div>
+
+    <div id="searchTab">
+      <div class="input-section">
+        <input type="text" id="wordInput" placeholder="Enter a word..." />
+        <button onclick="searchWord()">Search</button>
+        <button onclick="startVoiceSearch()">🎤 Speak</button>
+      </div>
+      <div id="result"></div>
+    </div>
+
+    <div id="flashcardsTab" style="display: none;">
+      <h2>🧠 Flashcards</h2>
+      <div id="flashcardView"></div>
+      <button onclick="nextFlashcard()">Next ➡️</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
