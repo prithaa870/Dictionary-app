@@ -22,7 +22,9 @@ A simple and interactive web-based English dictionary app built using **HTML**, 
 
 | Word Search | Flashcard Mode |
 |-------------|----------------|
-| ![search](screenshots/search.png) | ![flashcards](screenshots/flashcards.png) |
+| ![search]![image](https://github.com/user-attachments/assets/2a18c26c-69d8-47d1-8c68-e719a638d568)
+ | ![flashcards]![image](https://github.com/user-attachments/assets/1fe885ca-cb64-47ae-bb28-2bbe70e5aa06)
+ |
 
 ## 📁 How to Use
 
